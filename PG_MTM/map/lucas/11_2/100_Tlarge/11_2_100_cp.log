@@ -1,0 +1,43 @@
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 1000 variables, 1023 constraints
+ ! LogVerbosity         = Terse
+ ! TimeLimit            = 10
+ ! Initial process time : 0.10s (0.10s extraction + 0.00s propagation)
+ !  . Log search space  : 12699.2 (before), 12699.2 (after)
+ !  . Memory usage      : 30.0 MB (before), 30.3 MB (after)
+ ! Using parallel search with 4 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+ *         14422     1101  0.35s        1            -
+ *         14417     2201  0.50s        1            -
+ *         14413     7665  1.01s        1            -
+ *         13643     8768  1.21s        1            -
+ *         13637    11416  1.60s        1            -
+ *         13627    39008  3.89s        4            -
+ *         13624    57990  4.46s        4            -
+ *         13623    70088  6.19s        3            -
+ *         13538    75672  6.39s        4            -
+ *         13536    61255  6.78s        2            -
+ *         13535    62885  6.98s        2            -
+ *         13530    89899  7.17s        3            -
+ *         13528    93937  7.32s        3            -
+ *         13526    78858  7.71s        1            -
+ *         13521    82968  7.89s        2            -
+ *         13519    83990  8.07s        2            -
+ *         13515    91556  8.39s        2            -
+ *         13506    95434  8.55s        2            -
+ *         13503     103k  8.94s        2            -
+ *         13501     112k  9.55s        2            -
+ ! Time = 9.55s, Explored branches = 450633, Memory usage = 119.4 MB
+ !          Best Branches  Non-fixed    W       Branch decision
+ *         13498     117k  9.73s        2            -
+ *         13497     120k  9.91s        2            -
+ ! ----------------------------------------------------------------------------
+ ! Search terminated by limit, 22 solutions found.
+ ! Best objective         : 13497
+ ! Number of branches     : 479786
+ ! Number of fails        : 126842
+ ! Total memory usage     : 105.7 MB (100.3 MB CP Optimizer + 5.4 MB Concert)
+ ! Time spent in solve    : 10.00s (9.85s engine + 0.14s extraction)
+ ! Search speed (br. / s) : 48659.8
+ ! ----------------------------------------------------------------------------
