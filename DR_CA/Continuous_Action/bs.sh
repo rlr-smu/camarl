@@ -1,0 +1,1 @@
+/home/james/anaconda2/envs/bluesky/bin/python $1

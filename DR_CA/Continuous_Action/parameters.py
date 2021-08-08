@@ -1,0 +1,128 @@
+VERBOSE = False
+
+# ========== Training
+AGENT = "sac_dr_indv"
+
+LOCAL = False
+
+LOAD_MODEL = False
+EPISODES = 5
+MAP_ID = "map9"
+
+SEED = 32
+HORIZON = 200
+MAX_AC = 50
+ARR_INTERVAL = [2, 3] #0.1
+# ARR_INTERVAL = [4, 5, 6]  #0.2
+# ARR_INTERVAL = [6, 7, 9]  #0.3
+# ARR_INTERVAL = [8, 10, 12]  #0.4
+# ARR_INTERVAL = [10, 12, 15]  #0.5
+# ARR_INTERVAL = [12, 15, 18]  #0.6
+# ARR_INTERVAL = [14, 17, 21]  #0.7
+# ARR_INTERVAL = [16, 20, 24]  #0.8
+# ARR_INTERVAL = [18, 22, 27]  #0.9
+# ARR_INTERVAL = [20, 25, 30]  #1.0
+# VMAX_VMIN = [50, 700]
+VMAX_VMIN = [100, 500]
+
+# ============ Actions
+NUM_ACTIONS = -1
+ACTION_SCALE = [-0.5, 0.5]
+
+# ============= SAC
+SAC_HID = 256
+SAC_L = 2
+SAC_GAMMA = 0.99
+SAC_ALPHA = 0.1
+SAC_EPOCHS = 50
+SAC_EXP_NAME = "sac"
+SAC_UPDATE_AFTER = 100 #1000
+SAC_UPDATE_EVERY = 200
+SAC_BATCH_SIZE = 200
+SAC_REPLAY_BUFFER = 500
+SAC_TRAIN_EPOCH = 5
+SAC_WARMUP = 300
+SAC_TEST_EVERY = -1
+SAC_EVAL_EP = 100
+SAC_TRAIN_EP = 100
+SAC_EPS_DIM = 20
+
+# =========== Others
+LEARNING_RATE = 1e-2
+INSTANCE = 1
+POLICY_TRAIN = 50
+ENV_AC = 0
+UPDATE_INTV = 50.0
+EP_BATCH_SIZE = 1
+BATCH_SIZE = 1
+ENTROPY_WEIGHT = 0
+ARR_RATE = -1
+ARR_RATE_INTERVAL = 10
+MIN_DISTANCE = 3
+
+WIND = True
+MAX_WIND = 3
+
+
+CASE = "B"
+ALPHA = 0.1
+BETA = 0.05
+FF = True
+
+DISCOUNT = 0.99
+SHOULD_LOG = 1
+SAVE_MODEL = 1
+
+# ========== NN
+
+GRAD_CLIP = 5
+PPO_EPOCH = 2
+PPO_CLIP = 0.2
+EPOCH = 1
+DROPOUT = 0.5
+SHUFFLE = True
+
+# ========== Environment
+ALT = 2000
+NUM_LOS = 6
+LOS_NBR = 2
+# NUM_ENTRY = 1
+
+# ========== Diff_Reward
+CURR_ARR = MAX_AC
+
+# ========== Others
+LARGE = 1000
+HUGE = 1e20
+# PRO_FOLDER = "/home/james/Codes/mpa/james3/bluesky"
+
+# ========== System Environment Variables ========== #
+ENV_VAR = True
+OPENBLAS = 1
+OMP = 1
+MKL = 1
+NUMEXPR = 1
+NUM_CORES = 1
+TEST_ID = -1
+
+# ========== Real Data
+ADD_TRAFF = 0
+MIN_ALT = 5000
+MAX_ALT = 10000
+RANGE_STR = "5k_10k"
+SLICE_INDEX = 10
+NEW_NUM_AC = 20
+
+REAL_START_TIME = 6 * 60
+REAL_END_TIME = 11 * 60
+
+REAL_DATA_PATH = "/home/james/Codes/data/test/extract"
+DATE = "20190501"
+DATA_POINT_FREQ = 10
+GRID_SIZE = 30
+
+# ========== MTMF_DPG
+EPS_START = 0.9
+EPS_END = 0.05
+EPS_DECAY = 300
+

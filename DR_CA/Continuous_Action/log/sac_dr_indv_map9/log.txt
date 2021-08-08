@@ -1,0 +1,67 @@
+
+# ------------ Data ------------ #
+seed : 32
+map_id : map9
+agent : sac_dr_indv
+pro_folder : /home/james/Codes/thesis/cont_act
+dir_name : sac_dr_indv_map9
+num_edges : 2
+num_los : 6
+los_nbr : 2
+horizon : 200
+batch_size : 1
+max_ac : 50
+at_rw : [-1, 0.07500000000000001, 0.15, 0.25, 0.35, 0]
+action_space : []
+num_actions : 0
+interval : [2 3]
+num_entry : 1
+los_hash : [ 2.   3.5  5.   7.   9.  10. ]
+poly : [[50.6  5.6 50.4  5.6 50.4  5.1 50.6  5.1]
+ [50.4  5.6 50.4  6.1 50.6  6.1 50.6  5.6]]
+lines : [[ 50.5   5.1  50.5   5.6  50.5   6.1 100. ]]
+routes_lat : [[50.5 50.5 50.5]]
+routes_lon : [[5.1 5.6 6.1]]
+routes_hgd : [100.]
+ff : True
+alt : 2000
+wind_flag : True
+large : 1000
+new_arrival_t : [1]
+Env aircrafts : 0
+
+
+# ---------------------------------------------- #
+
+Episode : 1
+
+
+   Train_Return : 114.9
+   Train_Total_Conflicts : 0
+   Train_Avg_Travel_Time : 44.0,0.0
+   Goal_Reached : 50
+   Sampling_Runtime : 0.322
+   Rollout_Runtime : 0.002
+   Training_Runtime : 0.0
+   Episode_Runtime : 0.003
+   Total_Runtime : 3.909
+# ---------------------------------------------- #
+
+Episode : 2
+
+
+   Train_Return : 113.375
+   Train_Total_Conflicts : 0
+   Train_Avg_Travel_Time : 45.52,2.872
+   Goal_Reached : 50
+   Loss_rw : 1.383
+   Loss_q : 7.114
+   Loss_pi : 1.063
+   Sampling_Runtime : 0.344
+   Rollout_Runtime : 0.002
+   Training_Runtime : 0.0
+   Episode_Runtime : 0.003
+   Total_Runtime : 7.672
+# ---------------------------------------------- #
+
+Episode : 3

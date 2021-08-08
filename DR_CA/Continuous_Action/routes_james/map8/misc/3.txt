@@ -1,0 +1,35 @@
+M_10, MIN
+
+ENV = 0
+
+   Total Reward : -2460.525
+   Loss : -1
+   Avg. Conflicts : 8.23,3.553
+   Max Conflicts : 10.0
+   Total Conflicts : 2469
+   Goal Reached : 10
+   Avg. Travel Time : 251.4,1.685
+
+
+ENV = 1
+
+
+   Total Reward : -3800.0
+   Loss : -1
+   Avg. Conflicts : 12.777,6.473
+   Max Conflicts : 22.0
+   Total Conflicts : 3833
+   Goal Reached : 25
+   Avg. Travel Time : 181.08,76.421
+
+
+ ENV = 0.5
+  
+
+   Total Reward : -3411.85
+   Loss : -1
+   Avg. Conflicts : 11.473,5.303
+   Max Conflicts : 16.0
+   Total Conflicts : 3442
+   Goal Reached : 17
+   Avg. Travel Time : 228.294,35.541
