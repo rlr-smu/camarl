@@ -1,0 +1,147 @@
+\documentclass[10pt]{article}
+\usepackage{pstricks-add}
+\pagestyle{empty}
+\begin{document}
+\newrgbcolor{ududff}{0.30196078431372547 0.30196078431372547 1}
+\newrgbcolor{zzttqq}{0.6 0.2 0}
+\psset{xunit=1cm,yunit=1cm,algebraic=true,dimen=middle,dotstyle=o,dotsize=5pt 0,linewidth=1.6pt,arrowsize=3pt 2,arrowinset=0.25}
+\begin{pspicture*}(4.1482680599320485,49.804953177586604)(6.811711476639543,51.0676391452063)
+\multips(0,49)(0,0.1){13}{\psline[linestyle=dashed,linecap=1,dash=1.5pt 1.5pt,linewidth=0.4pt,linecolor=lightgray]{c-c}(4.1482680599320485,0)(6.811711476639543,0)}
+\multips(4,0)(0.1,0){27}{\psline[linestyle=dashed,linecap=1,dash=1.5pt 1.5pt,linewidth=0.4pt,linecolor=lightgray]{c-c}(0,49.804953177586604)(0,51.0676391452063)}
+\psaxes[labelFontSize=\scriptstyle,xAxis=true,yAxis=true,Dx=0.1,Dy=0.1,ticksize=-2pt 0,subticks=2]{->}(0,0)(4.1482680599320485,49.804953177586604)(6.811711476639543,51.0676391452063)
+\pspolygon[linewidth=2pt,linecolor=zzttqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.1](4.4,51)(4.4,50.8)(4.8,50.4)(4.8,50.6)
+\pspolygon[linewidth=2pt,linecolor=zzttqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.1](4.8,50.6)(4.4,50.2)(4.4,50)(4.8,50.4)
+\pspolygon[linewidth=2pt,linecolor=zzttqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.1](4.8,50.6)(5.2,51)(5.2,50.8)(4.8,50.4)
+\pspolygon[linewidth=2pt,linecolor=zzttqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.1](4.8,50.6)(5.2,50.2)(5.2,50)(4.8,50.4)
+\pspolygon[linewidth=2pt,linecolor=zzttqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.1](5.2,51)(5.6,50.6)(5.6,50.4)(5.2,50.8)
+\pspolygon[linewidth=2pt,linecolor=zzttqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.1](5.2,50.2)(5.6,50.6)(5.6,50.4)(5.2,50)
+\pspolygon[linewidth=2pt,linecolor=zzttqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.1](5.6,50.6)(6,51)(6,50.8)(5.6,50.4)
+\pspolygon[linewidth=2pt,linecolor=zzttqq,fillcolor=zzttqq,fillstyle=solid,opacity=0.1](5.6,50.6)(6,50.2)(6,50)(5.6,50.4)
+\psline[linewidth=2pt,linecolor=zzttqq](4.4,51)(4.4,50.8)
+\psline[linewidth=2pt,linecolor=zzttqq](4.4,50.8)(4.8,50.4)
+\psline[linewidth=2pt,linecolor=zzttqq](4.8,50.4)(4.8,50.6)
+\psline[linewidth=2pt,linecolor=zzttqq](4.8,50.6)(4.4,51)
+\psline[linewidth=2pt,linecolor=zzttqq](4.8,50.6)(4.4,50.2)
+\psline[linewidth=2pt,linecolor=zzttqq](4.4,50.2)(4.4,50)
+\psline[linewidth=2pt,linecolor=zzttqq](4.4,50)(4.8,50.4)
+\psline[linewidth=2pt,linecolor=zzttqq](4.8,50.4)(4.8,50.6)
+\psline[linewidth=2pt,linecolor=zzttqq](4.8,50.6)(5.2,51)
+\psline[linewidth=2pt,linecolor=zzttqq](5.2,51)(5.2,50.8)
+\psline[linewidth=2pt,linecolor=zzttqq](5.2,50.8)(4.8,50.4)
+\psline[linewidth=2pt,linecolor=zzttqq](4.8,50.4)(4.8,50.6)
+\psline[linewidth=2pt,linecolor=zzttqq](4.8,50.6)(5.2,50.2)
+\psline[linewidth=2pt,linecolor=zzttqq](5.2,50.2)(5.2,50)
+\psline[linewidth=2pt,linecolor=zzttqq](5.2,50)(4.8,50.4)
+\psline[linewidth=2pt,linecolor=zzttqq](4.8,50.4)(4.8,50.6)
+\psline[linewidth=2pt,linecolor=zzttqq](5.2,51)(5.6,50.6)
+\psline[linewidth=2pt,linecolor=zzttqq](5.6,50.6)(5.6,50.4)
+\psline[linewidth=2pt,linecolor=zzttqq](5.6,50.4)(5.2,50.8)
+\psline[linewidth=2pt,linecolor=zzttqq](5.2,50.8)(5.2,51)
+\psline[linewidth=2pt,linecolor=zzttqq](5.2,50.2)(5.6,50.6)
+\psline[linewidth=2pt,linecolor=zzttqq](5.6,50.6)(5.6,50.4)
+\psline[linewidth=2pt,linecolor=zzttqq](5.6,50.4)(5.2,50)
+\psline[linewidth=2pt,linecolor=zzttqq](5.2,50)(5.2,50.2)
+\psline[linewidth=2pt,linecolor=zzttqq](5.6,50.6)(6,51)
+\psline[linewidth=2pt,linecolor=zzttqq](6,51)(6,50.8)
+\psline[linewidth=2pt,linecolor=zzttqq](6,50.8)(5.6,50.4)
+\psline[linewidth=2pt,linecolor=zzttqq](5.6,50.4)(5.6,50.6)
+\psline[linewidth=2pt,linecolor=zzttqq](5.6,50.6)(6,50.2)
+\psline[linewidth=2pt,linecolor=zzttqq](6,50.2)(6,50)
+\psline[linewidth=2pt,linecolor=zzttqq](6,50)(5.6,50.4)
+\psline[linewidth=2pt,linecolor=zzttqq](5.6,50.4)(5.6,50.6)
+\begin{scriptsize}
+\psdots[dotstyle=*,linecolor=ududff](4.4,51)
+\rput[bl](4.404368388461616,51.01085168105409){\ududff{$A$}}
+\psdots[dotstyle=*,linecolor=ududff](4.4,50.8)
+\rput[bl](4.404368388461616,50.81153881667673){\ududff{$B$}}
+\psdots[dotstyle=*,linecolor=ududff](4.8,50.4)
+\rput[bl](4.804107596905592,50.410686128543496){\ududff{$C$}}
+\psdots[dotstyle=*,linecolor=ududff](4.8,50.6)
+\rput[bl](4.804107596905592,50.61111247261012){\ududff{$D$}}
+\rput[bl](4.382098794676436,50.90061719181745){\zzttqq{$a$}}
+\rput[bl](4.5869790575000895,50.587729399135675){\zzttqq{$b$}}
+\rput[bl](4.817469353176699,50.50087798337348){\zzttqq{$c$}}
+\rput[bl](4.612589090353047,50.81265229636599){\zzttqq{$d$}}
+\psdots[dotstyle=*,linecolor=ududff](4.4,50.2)
+\rput[bl](4.404368388461616,50.211373264166134){\ududff{$E$}}
+\psdots[dotstyle=*,linecolor=ududff](4.4,50)
+\rput[bl](4.404368388461616,50.01094692009952){\ududff{$F$}}
+\rput[bl](4.5869790575000895,50.412913087922014){\zzttqq{$d_1$}}
+\rput[bl](4.382098794676436,50.100025295240236){\zzttqq{$e$}}
+\rput[bl](4.612589090353047,50.1879901906917){\zzttqq{$f$}}
+\rput[bl](4.817469353176699,50.50087798337348){\zzttqq{$c_1$}}
+\psdots[dotstyle=*,linecolor=ududff](5.2,51)
+\rput[bl](5.204960285038827,51.01085168105409){\ududff{$G$}}
+\psdots[dotstyle=*,linecolor=ududff](5.2,50.8)
+\rput[bl](5.204960285038827,50.81153881667673){\ududff{$H$}}
+\rput[bl](5.012328298797022,50.788155743202296){\zzttqq{$d_2$}}
+\rput[bl](5.181577211564388,50.90061719181745){\zzttqq{$g$}}
+\rput[bl](4.986718265944066,50.613339431988635){\zzttqq{$h$}}
+\rput[bl](4.817469353176699,50.50087798337348){\zzttqq{$c_2$}}
+\psdots[dotstyle=*,linecolor=ududff](5.2,50.2)
+\rput[bl](5.204960285038827,50.211373264166134){\ududff{$I$}}
+\psdots[dotstyle=*,linecolor=ududff](5.2,50)
+\rput[bl](5.204960285038827,50.01094692009952){\ududff{$J$}}
+\rput[bl](4.986718265944066,50.38841653475831){\zzttqq{$d_3$}}
+\rput[bl](5.181577211564388,50.100025295240236){\zzttqq{$i$}}
+\rput[bl](5.012328298797022,50.21360022354465){\zzttqq{$j$}}
+\rput[bl](4.817469353176699,50.50087798337348){\zzttqq{$c_3$}}
+\psdots[dotstyle=*,linecolor=ududff](5.6,50.6)
+\rput[bl](5.604699493482803,50.61111247261012){\ududff{$K$}}
+\psdots[dotstyle=*,linecolor=ududff](5.6,50.4)
+\rput[bl](5.604699493482803,50.410686128543496){\ududff{$L$}}
+\rput[bl](5.386457474388042,50.788155743202296){\zzttqq{$g_1$}}
+\rput[bl](5.581316420008364,50.50087798337348){\zzttqq{$k$}}
+\rput[bl](5.412067507240998,50.613339431988635){\zzttqq{$l$}}
+\rput[bl](5.217208561620676,50.90061719181745){\zzttqq{$h_1$}}
+\rput[bl](5.412067507240998,50.38841653475831){\zzttqq{$i_1$}}
+\rput[bl](5.581316420008364,50.50087798337348){\zzttqq{$k_1$}}
+\rput[bl](5.386457474388042,50.21360022354465){\zzttqq{$l_1$}}
+\rput[bl](5.217208561620676,50.100025295240236){\zzttqq{$j_1$}}
+\psdots[dotstyle=*,linecolor=ududff](6,51)
+\rput[bl](6.004438701926778,51.01085168105409){\ududff{$M$}}
+\psdots[dotstyle=*,linecolor=ududff](6,50.8)
+\rput[bl](6.004438701926778,50.81153881667673){\ududff{$N$}}
+\rput[bl](5.811806715684974,50.788155743202296){\zzttqq{$k_2$}}
+\rput[bl](5.982169108141599,50.90061719181745){\zzttqq{$m$}}
+\rput[bl](5.787310162521276,50.613339431988635){\zzttqq{$n$}}
+\rput[bl](5.616947770064652,50.50087798337348){\zzttqq{$l_2$}}
+\psdots[dotstyle=*,linecolor=ududff](6,50.2)
+\rput[bl](6.004438701926778,50.211373264166134){\ududff{$O$}}
+\psdots[dotstyle=*,linecolor=ududff](6,50)
+\rput[bl](6.004438701926778,50.01094692009952){\ududff{$P$}}
+\rput[bl](5.787310162521276,50.38841653475831){\zzttqq{$k_3$}}
+\rput[bl](5.982169108141599,50.100025295240236){\zzttqq{$o$}}
+\rput[bl](5.811806715684974,50.21360022354465){\zzttqq{$p$}}
+\rput[bl](5.616947770064652,50.50087798337348){\zzttqq{$l_3$}}
+\end{scriptsize}
+\end{pspicture*}
+\end{document}
+
+
+directions:0#0,1,2,3*1#4,5,6,7
+
+
+lines_tmp = 
+[[50.9, 4.4, 50.5, 4.8, 50.9, 5.2, 50.5, 5.6, 50.9, 6, 100],
+ [50.9, 4.4, 50.5, 4.8, 50.9, 5.2, 50.5, 5.6, 50.1, 6, 100],
+ [50.9, 4.4, 50.5, 4.8, 50.1, 5.2, 50.5, 5.6, 50.9, 6, 100],
+ [50.9, 4.4, 50.5, 4.8, 50.1, 5.2, 50.5, 5.6, 50.1, 6, 100],
+ [50.1, 4.4, 50.5, 4.8, 50.9, 5.2, 50.5, 5.6, 50.9, 6, 100],
+ [50.1, 4.4, 50.5, 4.8, 50.9, 5.2, 50.5, 5.6, 50.1, 6, 100],
+ [50.1, 4.4, 50.5, 4.8, 50.1, 5.2, 50.5, 5.6, 50.9, 6, 100],
+ [50.1, 4.4, 50.5, 4.8, 50.1, 5.2, 50.5, 5.6, 50.1, 6, 100],
+]
+
+# Route IDs:
+0: 0, 2, 4, 6
+1: 0, 2, 4, 7
+2: 0, 3, 5, 6
+3: 0, 3, 5, 7
+4: 1, 2, 4, 6
+5: 1, 2, 4, 7
+6: 1, 3, 5, 6
+7: 1, 3, 5, 7
+
+
+

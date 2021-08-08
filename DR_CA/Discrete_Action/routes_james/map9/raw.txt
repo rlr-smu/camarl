@@ -1,0 +1,43 @@
+\documentclass[10pt]{article}
+\usepackage{pstricks-add}
+\pagestyle{empty}
+\begin{document}
+\newrgbcolor{rvwvcq}{0.08235294117647059 0.396078431372549 0.7529411764705882}
+\psset{xunit=1cm,yunit=1cm,algebraic=true,dimen=middle,dotstyle=o,dotsize=5pt 0,linewidth=1.6pt,arrowsize=3pt 2,arrowinset=0.25}
+\begin{pspicture*}(4.332602976943505,49.543082337402495)(7.454296975045815,51.30252617132306)
+\multips(0,49)(0,0.1){18}{\psline[linestyle=dashed,linecap=1,dash=1.5pt 1.5pt,linewidth=0.4pt,linecolor=lightgray]{c-c}(4.332602976943505,0)(7.454296975045815,0)}
+\multips(4,0)(0.1,0){32}{\psline[linestyle=dashed,linecap=1,dash=1.5pt 1.5pt,linewidth=0.4pt,linecolor=lightgray]{c-c}(0,49.543082337402495)(0,51.30252617132306)}
+\psaxes[labelFontSize=\scriptstyle,xAxis=true,yAxis=true,Dx=0.1,Dy=0.1,ticksize=-2pt 0,subticks=2]{->}(0,0)(4.332602976943505,49.543082337402495)(7.454296975045815,51.30252617132306)
+\pspolygon[linewidth=2pt,linecolor=rvwvcq,fillcolor=rvwvcq,fillstyle=solid,opacity=0.1](5.6,50.6)(5.6,50.4)(5.1,50.4)(5.1,50.6)
+\pspolygon[linewidth=2pt,linecolor=rvwvcq,fillcolor=rvwvcq,fillstyle=solid,opacity=0.1](5.6,50.4)(6.1,50.4)(6.1,50.6)(5.6,50.6)
+\psline[linewidth=2pt,linecolor=rvwvcq](5.6,50.6)(5.6,50.4)
+\psline[linewidth=2pt,linecolor=rvwvcq](5.6,50.4)(5.1,50.4)
+\psline[linewidth=2pt,linecolor=rvwvcq](5.1,50.4)(5.1,50.6)
+\psline[linewidth=2pt,linecolor=rvwvcq](5.1,50.6)(5.6,50.6)
+\psline[linewidth=2pt,linecolor=rvwvcq](5.6,50.4)(6.1,50.4)
+\psline[linewidth=2pt,linecolor=rvwvcq](6.1,50.4)(6.1,50.6)
+\psline[linewidth=2pt,linecolor=rvwvcq](6.1,50.6)(5.6,50.6)
+\psline[linewidth=2pt,linecolor=rvwvcq](5.6,50.6)(5.6,50.4)
+\begin{scriptsize}
+\psdots[dotstyle=*,linecolor=rvwvcq](5.6,50.6)
+\rput[bl](5.6064154880975785,50.61519493814245){\rvwvcq{$A$}}
+\psdots[dotstyle=*,linecolor=rvwvcq](5.6,50.4)
+\rput[bl](5.6064154880975785,50.415046565500695){\rvwvcq{$B$}}
+\psdots[dotstyle=*,linecolor=rvwvcq](5.1,50.4)
+\rput[bl](5.106820325379416,50.415046565500695){\rvwvcq{$C$}}
+\psdots[dotstyle=*,linecolor=rvwvcq](5.1,50.6)
+\rput[bl](5.106820325379416,50.61519493814245){\rvwvcq{$D$}}
+\psdots[dotstyle=*,linecolor=rvwvcq](6.1,50.4)
+\rput[bl](6.106010650815742,50.415046565500695){\rvwvcq{$E$}}
+\psdots[dotstyle=*,linecolor=rvwvcq](6.1,50.6)
+\rput[bl](6.106010650815742,50.61519493814245){\rvwvcq{$F$}}
+\end{scriptsize}
+\end{pspicture*}
+\end{document}
+
+
+directions:0#0
+
+
+
+# lines = [[50.5, 5.1, 50.5, 5.6, 50.5, 6.1, 100]]

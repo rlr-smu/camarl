@@ -1,0 +1,4 @@
+Reading config from settings.cfg
+Using Python-based geo functions
+Loading global navigation database...
+Reading cache: data/cache/py3/navdata.p
