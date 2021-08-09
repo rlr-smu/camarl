@@ -21,5 +21,14 @@ For **MAX SPEED** baseline, select  <code>AGENT_NAME = "tmin"</code>
 
 Run the command: <code> python main.py</code>
 
+## Experiments Parameters
 
-
+|     Parameters     | Values |
+| :----------------: | :----: |
+|   Learning Rate    |  1e-3  |
+| Delay Penalty (Wd) |   1    |
+|      Horizon       |  200   |
+|                    |        |
+|                    |        |
+|                    |        |
+|                    |        |
