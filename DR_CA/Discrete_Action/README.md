@@ -21,7 +21,7 @@ For **LOCAL_DR** baseline, select  <code>AGENT_NAME = "appx_dr_colby"</code>
 
 For **AT-DR** baseline, select  <code>AGENT_NAME = "appx_dr_scot"</code>
 
-For **AT-BASELINE** baseline, select  <code>AGENT_NAME = "ppo_bl"</code>
+For **AT-BASELINE** baseline, we use the code base from the paper [link](https://ieeexplore.ieee.org/document/8917217)
 
 Run the command: <code> python bs.py</code>
 
