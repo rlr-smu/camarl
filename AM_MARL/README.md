@@ -13,4 +13,16 @@ All the parameters for the project are provided in python file <code>parameters.
 
 Run the command: <code> python main.py</code>
 
+## Experimental Parameters
+
+|            Parameters            | Values |
+| :------------------------------: | :----: |
+|          Learning Rate           |  1e-3  |
+|             Horizon              |  100   |
+|            Optimizer             |  Adam  |
+|             Discount             |  0.99  |
+| Number of hidden layers per grid |   2    |
+| Number of hidden units per layer |   32   |
+|          Non-linearity           |  tanh  |
+|        Replay buffer size        |  400   |
 
