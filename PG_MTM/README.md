@@ -21,14 +21,17 @@ For **MAX SPEED** baseline, select  <code>AGENT_NAME = "tmin"</code>
 
 Run the command: <code> python main.py</code>
 
-## Experiments Parameters
+## Experimental Parameters
 
-|     Parameters     | Values |
-| :----------------: | :----: |
-|   Learning Rate    |  1e-3  |
-| Delay Penalty (Wd) |   1    |
-|      Horizon       |  200   |
-|                    |        |
-|                    |        |
-|                    |        |
-|                    |        |
+|            Parameters            | Values |
+| :------------------------------: | :----: |
+|          Learning Rate           |  1e-3  |
+|        Delay Penalty (Wd)        |   1    |
+|             Horizon              |  200   |
+|            Optimizer             |  Adam  |
+|             Discount             |  0.99  |
+|     Number of hidden layers      |   2    |
+| Number of hidden units per layer |   25   |
+|          Non-linearity           |  tanh  |
+|        Replay buffer size        |  400   |
+
