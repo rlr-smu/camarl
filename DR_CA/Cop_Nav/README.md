@@ -19,4 +19,17 @@ For **LOCAL_DR** baseline, select  <code>AGENT_NAME = "appx_dr_colby"</code>
 
 Run the command: <code> python main.py</code>
 
+## Experimental Parameters
+
+|             Parameters             |     Values      |
+| :--------------------------------: | :-------------: |
+|           Learning Rate            |      1e-3       |
+|              Horizon               |       200       |
+|             Optimizer              |      Adam       |
+|              Discount              |      0.99       |
+| Number of hidden layers per sector |        2        |
+|  Number of hidden units per layer  |       100       |
+|           Non-linearity            |   Leaky Relu    |
+|         Replay buffer size         |       200       |
+|           Default-action           | no action index |
 

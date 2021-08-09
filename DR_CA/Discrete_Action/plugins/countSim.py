@@ -20,8 +20,6 @@ from agents.appx_dr_scot import appx_dr_scot
 from utils import display, log, deleteDir, real_time
 import numpy as np
 import os
-from Multi_Agent.PPO import PPO_Agent
-from Multi_Agent.PPO import getClosestAC
 import matplotlib.pyplot as plt
 from auxLib3 import now, getRuntime
 
@@ -101,14 +99,6 @@ def init_plugin():
         agent = diff_mid_hyp(dir_name=dir_name, pro_folder=pro_folder, lg=lg)
     elif AGENT == "mtmf_sm_tgt_lg":
         agent = mtmf_sm_tgt_lg(dir_name=dir_name, pro_folder=pro_folder, lg=lg)
-    elif AGENT == "ppo_bl":
-        # Baseline
-        max_ac = dt.max_ac
-        n_states = 5
-        positions = np.load("./routes_james/"+dt.map_id+"/" + dt.map_id + "_lines.npy", allow_pickle=True)
-        num_intruders = 4
-        actions_size = len(dt.action_space)
-        agent = PPO_Agent(n_states,actions_size,positions.shape[0],EPISODES,positions,num_intruders,load_model=LOAD_MODEL, dir_name=dir_name, actions=dt.action_space, routes_list=cenv.routes_list)
     elif AGENT == "appx_dr_colby":
         agent = appx_dr_colby(dir_name=dir_name, pro_folder=pro_folder, lg=lg)
     elif AGENT == "appx_dr_scot":
@@ -197,7 +187,7 @@ def update():
             state_ppo[:,2] = traf.tas
             state_ppo[:,3] = route
             state_ppo[:,4] = traf.ax
-            state_ppo, context = getClosestAC(state_ppo, traf, store_terminal, agent)
+            # state_ppo, context = getClosestAC(state_ppo, traf, store_terminal, agent)
             action_ac = agent.get_action(state_ppo, context)
         else:
             action_ac = None

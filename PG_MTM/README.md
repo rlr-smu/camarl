@@ -30,8 +30,8 @@ Run the command: <code> python main.py</code>
 |             Horizon              |  200   |
 |            Optimizer             |  Adam  |
 |             Discount             |  0.99  |
-|     Number of hidden layers      |   2    |
-| Number of hidden units per layer |   25   |
+|      Total number of zones       |   23   |
+| Number of hidden layers per zone |   2    |
+| Number of hidden units per layer |   23   |
 |          Non-linearity           |  tanh  |
 |        Replay buffer size        |  400   |
-

@@ -21,3 +21,18 @@ Run the command: <code> python launch.py</code>
 
 
 
+## Experimental Parameters
+
+|            Parameters            | Values |
+| :------------------------------: | :----: |
+|          Learning Rate           |  1e-3  |
+|        Delay Penalty (Wd)        |   1    |
+|             Horizon              |  100   |
+|            Optimizer             |  Adam  |
+|             Discount             |  0.99  |
+|      Total number of zones       |   30   |
+| Number of hidden layers per zone |   2    |
+| Number of hidden units per layer |   30   |
+|          Non-linearity           |  tanh  |
+|        Replay buffer size        |  200   |
+|      Number of meta-action       |   4    |

@@ -25,4 +25,16 @@ For **AT-BASELINE** baseline, we use the code base from the paper [link](https:/
 
 Run the command: <code> python bs.py</code>
 
+## Experimental Parameters
 
+|             Parameters             |        Values         |
+| :--------------------------------: | :-------------------: |
+|           Learning Rate            |         1e-3          |
+|              Horizon               |          200          |
+|             Optimizer              |         Adam          |
+|              Discount              |         0.99          |
+| Number of hidden layers per sector |           2           |
+|  Number of hidden units per layer  |          100          |
+|           Non-linearity            |      Leaky Relu       |
+|         Replay buffer size         |          200          |
+|           Default action           | No speed change index |
