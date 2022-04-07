@@ -1,5 +1,5 @@
-# Hierarchical Learning Approach for Maritime Traffic Management
-This repository contains code base for chapter 5, Hierarchical Learning Approach for Maritime Traffic Management.
+# Hierarchical Multiagent Reinforcement Learning for Maritime Traffic Management.
+This repository contains the code for paper, Hierarchical Multiagent Reinforcement Learning for Maritime Traffic Management. (AAMAS-20)
 
 ## Installations
 
