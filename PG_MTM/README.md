@@ -1,5 +1,5 @@
-# Policy Gradient Approach for Maritime Traffic Management
-This repository contains code base for chapter 4, Policy Gradient Approach for Maritime Traffic Management.
+# Multiagent Decision Making For Maritime Traffic Management
+This repository contains the code for paper Multiagent Decision Making For Maritime Traffic Management. AAAI-19
 
 ## Installations
 
